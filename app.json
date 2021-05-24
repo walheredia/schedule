@@ -1,12 +1,18 @@
 {
   "name": "agenda",
-  "displayName": "agenda",
+  "displayName": "Agenda",
   "expo": {
-    "name": "agenda",
-    "slug": "agenda",
+    "name": "Agenda",
+    "icon": "./src/img/logo3.png",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
+    "slug": "Agenda-AppCont",
+    "ios": {
+      "bundleIdentifier": "com.AppCont.Agenda",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.AppCont.Agenda",
+      "versionCode": 1
+    }
   }
 }
