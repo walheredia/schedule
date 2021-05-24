@@ -407,7 +407,7 @@ export default function Consulta() {
     }
 
     return (
-        <View >
+        <View>
             <Calendar
                 style={styles.calendar}
                 markedDates={eventos}
@@ -725,7 +725,6 @@ export default function Consulta() {
                     </View>
                 </View>
             </Modal>
-
         </View>
     );
 }
