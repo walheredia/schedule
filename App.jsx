@@ -31,7 +31,7 @@ export default function App() {
                         if (route.name === 'Agenda') {
                             iconName = focused ? 'ios-calendar' : 'ios-calendar-outline';
                         }
-                        // You can return any component that you like here!
+                        // You can return any component that you like here!!
                         return <Ionicons name={iconName} size={size} color={color} />;
                     },
                 })}
