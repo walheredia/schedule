@@ -1,8 +1,7 @@
 {
-  "name": "agenda",
-  "displayName": "Agenda",
   "expo": {
     "name": "Agenda",
+    "displayName": "Agenda",
     "icon": "./src/img/logo3.png",
     "version": "1.0.0",
     "slug": "Agenda-AppCont",
@@ -17,8 +16,8 @@
     "extra": {
       "eas": {
         "projectId": "6d8e7f21-7809-4827-802a-3c6f63694310"
-      },
-      "owner": "wheredia"
-    }
+      }
+    },
+    "owner": "wheredia"
   }
 }
