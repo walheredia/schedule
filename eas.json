@@ -20,12 +20,5 @@
         "buildType": "apk"
       }
     }
-  },
-  "submit": {
-    "production": {
-      "android": {
-        "serviceAccountKeyPath": "<path-to-your-service-account-json>"
-      }
-    }
   }
 }
