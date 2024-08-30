@@ -13,6 +13,11 @@
     "android": {
       "package": "com.AppCont.Agenda",
       "versionCode": 1
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6d8e7f21-7809-4827-802a-3c6f63694310"
+      }
     }
   }
 }
