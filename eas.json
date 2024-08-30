@@ -1,22 +1,31 @@
 {
-  "cli": {
-    "version": ">= 2.0.0"
-  },
   "build": {
-    "production": {
-      "releaseChannel": "production",
-      "env": {
-        "ENV_VAR_NAME": "value"
+    "development": {
+      "distribution": "internal",
+      "android": {
+        "image": "expo/android:latest",
+        "buildType": "apk"
       }
     },
     "preview": {
-      "releaseChannel": "default",
-      "env": {
-        "ENV_VAR_NAME": "value"
+      "distribution": "internal",
+      "android": {
+        "image": "expo/android:latest",
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "android": {
+        "image": "expo/android:latest",
+        "buildType": "apk"
       }
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "<path-to-your-service-account-json>"
+      }
+    }
   }
 }
