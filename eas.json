@@ -3,14 +3,14 @@
     "development": {
       "distribution": "internal",
       "android": {
-        "image": "latest",
+        "image": "ubuntu-22.04-jdk-11-ndk-r21e",
         "buildType": "apk"
       }
     },
     "preview": {
       "distribution": "internal",
       "android": {
-        "image": "latest",
+        "image": "ubuntu-22.04-jdk-11-ndk-r21e",
         "buildType": "apk"
       }
     },
