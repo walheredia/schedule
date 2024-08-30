@@ -1,0 +1,22 @@
+{
+  "cli": {
+    "version": ">= 2.0.0"
+  },
+  "build": {
+    "production": {
+      "releaseChannel": "production",
+      "env": {
+        "ENV_VAR_NAME": "value"
+      }
+    },
+    "preview": {
+      "releaseChannel": "default",
+      "env": {
+        "ENV_VAR_NAME": "value"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
