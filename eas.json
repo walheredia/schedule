@@ -3,14 +3,14 @@
     "development": {
       "distribution": "internal",
       "android": {
-        "image": "expo/android:latest",
+        "image": "latest",
         "buildType": "apk"
       }
     },
     "preview": {
       "distribution": "internal",
       "android": {
-        "image": "expo/android:latest",
+        "image": "latest",
         "buildType": "apk"
       }
     },
