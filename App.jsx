@@ -7,7 +7,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 //galeria https://github.com/oblador/react-native-vector-icons/blob/master/glyphmaps/Ionicons.json
 require('moment/locale/es.js');
 
-function ConsultaAgenda() {
+function ConsultaAgenda() { 
     return (
         <Consulta/>
     );
